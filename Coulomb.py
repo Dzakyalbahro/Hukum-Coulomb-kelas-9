@@ -7,17 +7,17 @@ def Coulomb(num1, num2, r):
 def Multiply(num1, num2, rank):
 	return num1*num2**rank
 	
-y = int(input("Masukkan angka ke-: "))
-p = int(input("Masukkan angka ke-2: "))
-q = int(input("Masukkan pangkat: "))
-hasil1 = Multiply(y, p, q)
+a = int(input("Masukkan angka ke-: "))
+b = int(input("Masukkan angka ke-2: "))
+c = int(input("Masukkan pangkat: "))
+Q1 = Multiply(a, b, c)
 
-je = int(input("Masukkan angka ke-1: "))
-ha = int(input("Masukkan angka ke-2: "))
-wj = int(input("Masukkan pangkat: "))
-hasil2 = Multiply(je, ha, wj)
+d = int(input("Masukkan angka ke-1: "))
+e = int(input("Masukkan angka ke-2: "))
+f = int(input("Masukkan pangkat: "))
+Q2 = Multiply(d, e, f)
 
-y = int(input("masukkan distance: "))
+r = int(input("masukkan jarak: "))
 
-h = Coulomb(hasil1, hasil2, y)
+h = Coulomb(Q1, Q2, r)
 print(f"F: {h}N")
