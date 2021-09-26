@@ -1,7 +1,7 @@
-def Coulomb(num1, num2, r):
+def Coulomb(Q1, Q2, r):
     k = 9*10**9
     b = r*10**-2
-    answer = (k*num1* num2)/(b*b)
+    answer = (k*Q1*Q2)/(b*b)
     return answer
 
 def Multiply(num1, num2, rank):
