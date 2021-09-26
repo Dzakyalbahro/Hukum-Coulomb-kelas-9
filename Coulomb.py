@@ -20,4 +20,4 @@ Q2 = Multiply(d, e, f)
 r = int(input("masukkan jarak: "))
 
 h = Coulomb(Q1, Q2, r)
-print(f"F: {h} N")
+print(f"F: {h}N")
